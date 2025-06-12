@@ -1,1 +1,53 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: OS-Bold;
+    src: url("../src/elements/fonts/OpenSauceSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: OS-ExBold;
+    src: url("../src/elements/fonts/OpenSauceSans-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: OS-Medium;
+    src: url("../src/elements/fonts/OpenSauceSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: OS-Regular;
+    src: url("../src/elements/fonts/OpenSauceSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: RW-Bold;
+    src: url("../src/elements/fonts/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: RW-Medium;
+    src: url("../src/elements/fonts/Raleway-Medium.ttf");
+}
+
+@font-face {
+    font-family: RW-Regular;
+    src: url("../src/elements/fonts/Raleway-Regular.ttf");
+}
+
+@theme{
+    --font-OSBold: OS-Bold, 'sans-serif';
+    --font-OSExBold: OS-ExBold, 'sans-serif';
+    --font-OSMedium: OS-Medium, 'sans-serif';
+    --font-OSRegular: OS-Regular, 'sans-serif';
+
+    --font-RWBold: RW-Bold, 'sans-serif';
+    --font-RWMedium: RW-Medium, 'sans-serif';
+    --font-RWRegular: RW-Regular, 'sans-serif';
+
+    --color-page: oklch(97.7% 0.013 236.62);
+    --color-element: oklch(90.1% 0.058 230.902);
+    --color-button: oklch(75% 0.183 55.934);
+    --color-blacktext: oklch(14.7% 0.004 49.25);
+    --color-whitetext: oklch(98.5% 0.001 106.423);
+}
